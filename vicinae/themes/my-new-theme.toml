@@ -1,0 +1,85 @@
+# This file demonstrates all available theme configuration options for Vicinae.
+# You don't need to define all of these: only override what you want to customize.
+# Undefined colors will be automatically derived from core colors or inherited from base themes.
+#
+# Check out the full documentation at https://docs.vicinae.com/theming/getting-started
+[meta]
+name = "Vicinae Monochrome"
+description = "Grayscale Vicinae theme"
+variant = "dark"                              # "dark" | "light": impacts what icon to show in some circumstances
+inherits = "vicinae-dark"
+icon = "icons/theme-name.png"                 # Optional: path to theme icon (relative to the theme directory it is placed in if not an absolute path)
+
+[colors.core]
+accent = "#9a9a9a"
+accent_foreground = "#0f0f0f"
+background = "#0f0f0f"
+foreground = "#e8e8e8"
+secondary_background = "#161616"
+border = "#2a2a2a"
+
+[colors.main_window]
+border = "#2a2a2a"
+footer = { background = "colors.core.secondary_background" }
+
+[colors.settings_window]
+border = "#2a2a2a"
+
+[colors.accents]
+blue = "#8a8a8a"
+green = "#7a7a7a"
+magenta = "#b0b0b0"
+orange = "#909090"
+red = "#6e6e6e"
+yellow = "#c0c0c0"
+cyan = "#a0a0a0"
+purple = "#b0b0b0"
+
+# For now, shortcuts cannot have their own dedicated background
+[colors.shortcut]
+border = "colors.core.border"
+
+[colors.text]
+default = "colors.core.foreground"
+muted = "#a8a8a8"
+danger = "#7a7a7a"
+success = "#8a8a8a"
+placeholder = "#787878"
+selection = { background = "#9a9a9a", foreground = "#0f0f0f" }
+
+[colors.text.links]
+default = "#c0c0c0"
+visited = "#b0b0b0"
+
+[colors.input]
+border = "#2a2a2a"
+border_focus = "#9a9a9a"
+border_error = "#7a7a7a"
+
+[colors.button.primary]
+background = "#1d1d1d"
+foreground = "#e8e8e8"
+hover = { background = "#bb1d1d1d" }
+focus = { outline = "colors.core.accent" }
+
+[colors.list.item.hover]
+foreground = "#e8e8e8"
+secondary_foreground = "#e8e8e8"
+
+[colors.list.item.selection]
+background = "#1d1d1d"
+foreground = "#e8e8e8"
+secondary_background = "#1d1d1d"
+secondary_foreground = "#e8e8e8"
+
+[colors.grid.item]
+background = "#161616"
+hover = { outline = "#e8e8e8" }
+selection = { outline = "#e8e8e8" }
+
+[colors.scrollbars]
+background = "#2a2a2a"
+
+[colors.loading]
+bar = "#9a9a9a"
+spinner = "#e8e8e8"

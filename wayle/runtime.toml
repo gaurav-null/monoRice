@@ -1,0 +1,67 @@
+[general]
+tearing-mode = true
+
+[bar]
+bg = "bg-base"
+border-location = "bottom"
+border-color = "fg-default"
+button-variant = "basic"
+button-icon-size = 1.25
+button-label-size = 1.649999976158142
+button-label-padding = 1.0499999523162842
+button-rounding = "none"
+button-border-location = "none"
+
+[[bar.layout]]
+monitor = "*"
+show = true
+left = [
+    "hyprland-workspaces",
+    "media",
+]
+center = ["clock"]
+right = [
+    "volume",
+    "network",
+    "bluetooth",
+    "battery",
+    "hyprsunset",
+    "dashboard",
+]
+
+[styling]
+rounding = "none"
+matugen-scheme = "monochrome"
+
+[styling.palette]
+bg = "#000000"
+surface = "#000000"
+elevated = "#101010"
+fg = "#ffffff"
+fg-muted = "#c4c4c4"
+primary = "#c4c4c4"
+red = "#a8a8a8"
+yellow = "#b8b8b8"
+green = "#9a9a9a"
+blue = "#a3a3a3"
+
+[modules.bluetooth]
+label-show = false
+
+[modules.hyprland-workspaces]
+min-workspace-count = 2
+
+[modules.network]
+label-show = false
+
+[modules.systray]
+icon-scale = 1.2999999523162842
+internal-padding = 2.0
+border-show = true
+border-color = "#ffffff"
+
+[wallpaper]
+transition-type = "grow"
+cycling-enabled = true
+cycling-directory = "/home/crazy-idea/Pictures/Wallpapers/Neon-Genesis-Evangelion-anime-Anime-screenshot-black-background-simple-background-text-2271098-wallhere.com.jpg"
+cycling-interval-mins = 2

@@ -1,0 +1,15 @@
+[bar]
+location = "top"
+scale = 0.5
+
+[style]
+palette = "pywal" 
+
+[[bar.layout]]
+monitor = "*"
+left = ["dashboard"]
+center = ["clock"]
+right = ["volume", "network", "bluetooth", "battery"]
+
+[modules.clock]
+format = "%H:%M"

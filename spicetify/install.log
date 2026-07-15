@@ -1,0 +1,9 @@
+[20:15:36 2026-07-07] FETCHING Version 2.44.0
+[20:15:36 2026-07-07] DOWNLOADING https://github.com/spicetify/cli/releases/download/v2.44.0/spicetify-2.44.0-linux-amd64.tar.gz
+[20:15:36 2026-07-07] EXTRACTING /home/crazy-idea/.spicetify/spicetify.tar.gz
+[20:15:37 2026-07-07] SETTING EXECUTABLE PERMISSIONS TO /home/crazy-idea/.spicetify/spicetify
+[20:15:37 2026-07-07] REMOVING /home/crazy-idea/.spicetify/spicetify.tar.gz
+[20:15:37 2026-07-07] spicetify path already set in /home/crazy-idea/.bashrc, continuing...
+[20:15:37 2026-07-07] spicetify path already set in /home/crazy-idea/.bash_profile, continuing...
+[20:15:37 2026-07-07] spicetify v2.44.0 was installed successfully to /home/crazy-idea/.spicetify
+[20:15:37 2026-07-07] Run 'spicetify --help' to get started
