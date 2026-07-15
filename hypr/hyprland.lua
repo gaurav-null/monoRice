@@ -272,7 +272,7 @@ hl.layer_rule({ match = { namespace = "vicinae" }, no_anim = true })
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
 hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("vicinae toggle"))
-
+hl.bind(mainMod .. " + S", hl.dsp.exec_cmd("flameshot full --clipboard  --path /home/crazy-idea/Pictures/Screenshots"))
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("flameshot gui --clipboard --path ~/Pictures/Screenshots"))
 hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(terminal))
