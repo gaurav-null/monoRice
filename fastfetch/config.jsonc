@@ -8,7 +8,7 @@
   },
   "logo": {
     "type": "kitty-icat", // Use "iterm" if you are on iTerm2
-    "source": "/home/crazy-idea/.config/fastfetch/final.gif",
+    "source": "/home/<Your-Username>/.config/fastfetch/final.gif",
     "width": 30,         // Optional: Adjust width to scale properly
     "height": 9,	 // Optional: Adjust height to scale properly
     "color":{
