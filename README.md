@@ -21,8 +21,10 @@ https://github.com/user-attachments/assets/ca645d61-5918-4a5c-a4f6-6f5c8fab76d5
 
 
 
+> [!NOTE]
+> Ollama setup not included
 
-Screenshots Down!
+Scroll down for Screenshots!
 
 ## Components
 
